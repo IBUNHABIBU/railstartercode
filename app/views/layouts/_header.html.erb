@@ -1,11 +1,11 @@
 <header class="header">
-<%= link_to 'LOGO', root_path, class: "logo" %>
-<% items = ['Home', 'Dropdown Menu', 'Mega menu', 'Blog', 'About' ] %>
-<nav>
-    <ul class="menu-items">
-    <% items.each do |item| %>
-        <li><%= link_to item, '#', class: "menu-item" %></li>
-    <% end %>
-    </ul>
-</nav>
+    <%= link_to 'LOGO', root_path, class: "logo" %>
+    <% items = ['Home', 'Dropdown Menu', 'Mega menu', 'Blog', 'About' ] %>
+    <nav>
+        <ul class="menu-items">
+            <% items.each do |item| %>
+                <li><%= link_to item, '#', class: "menu-item" %></li>
+            <% end %>
+        </ul>
+    </nav>
 </header>
