@@ -16,11 +16,11 @@
         list-style: none;
         
         li {
-            // padding: var(--space-xs) var(--space-m);
+            padding: var(--space-xs) var(--space-m);
             transition: background 0.3s ease-in-out;
 
             &:hover {
-                // background-color: var(--color-primary);
+                background-color: var(--color-primary);
             }
         }
     }
@@ -45,7 +45,7 @@
             }
         }
         .dropdown-menu {
-            position: relative;
+            position: absolute;
             background-color: var(--color-header-bg);
             width: 100%;
             top: 50%;
