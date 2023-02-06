@@ -1,10 +1,10 @@
 <header class="header">
-    <%= link_to 'LOGO', root_path, class: "logo" %>
+    <%= link_to 'LOGO', root_path, class: "header__logo" %>
     <% items = ['Home', 'Dropdown Menu', 'Mega menu', 'Blog', 'About' ] %>
     <nav>
-        <ul class="menu-items">
+        <ul class="header__menu">
             <% items.each do |item| %>
-                <li><%= link_to item, '#', class: "menu-item" %></li>
+                <li><%= link_to item, '#', class: "header__menu__item" %></li>
             <% end %>
         </ul>
     </nav>
