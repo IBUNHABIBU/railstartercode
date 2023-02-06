@@ -10,13 +10,13 @@
     z-index: 1;
 
     &__logo {
-        font-size: var(--font-size-xxxl);
+        font-size: var(--font-size-xl);
     }
     ul {
         list-style: none;
         
         li {
-            padding: var(--space-xs) var(--space-m);
+            // padding: var(--space-xs) var(--space-m);
             transition: background 0.3s ease-in-out;
 
             &:hover {
@@ -27,7 +27,7 @@
 
     &__menu {
         display: flex;
-
+        align-items: center;
         &__item {
             display: flex;
             justify-content: space-between;
