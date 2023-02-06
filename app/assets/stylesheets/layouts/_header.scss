@@ -28,6 +28,11 @@
     &__menu {
         display: flex;
 
+        &__item {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
         .dropdown {
             position: relative;
             background-color: var(--color-header-bg);
@@ -36,6 +41,14 @@
             left: 0;
             opacity: 0;
             visibility: hidden;
+
+            &:hover {
+                .dropdown-menu {
+                    top: 34px;
+                    opacity: 1;
+                    visibility: visible;
+                }
+            }
         }
     }
     a {
