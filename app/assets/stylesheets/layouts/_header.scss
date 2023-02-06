@@ -27,6 +27,11 @@
 
     &__menu {
         display: flex;
+
+        .dropdown {
+            position: relative;
+            
+        }
     }
     a {
         text-decoration: none;
