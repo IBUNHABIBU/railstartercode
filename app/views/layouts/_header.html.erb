@@ -3,9 +3,13 @@
     <% items = ['Home', 'Dropdown Menu', 'Mega menu', 'Blog', 'About' ] %>
     <nav>
         <ul class="header__menu">
-            <% items.each do |item| %>
-                <li><%= link_to item, '#', class: "header__menu__item" %></li>
-            <% end %>
+            <%# <% items.each do |item| %> %>
+                <li><%= link_to 'Home', '#', class: "header__menu__item" %></li>
+                <li><%= link_to 'Dropdown Menu', '#', class: "header__menu__item" %></li>
+                <li><%= link_to 'Mega Menu', '#', class: "header__menu__item" %></li>
+                <li><%= link_to 'Blog', '#', class: "header__menu__item" %></li>
+                <li><%= link_to 'About', '#', class: "header__menu__item" %></li>
+            <%# <% end %> %>
         </ul>
     </nav>
 </header>
