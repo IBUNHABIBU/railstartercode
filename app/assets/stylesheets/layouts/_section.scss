@@ -11,6 +11,8 @@
     text-align: center;
 
     h1 {
-        font-family: ;
+        font-family: var(--font-family-titillium);
+        font-weight: 700;
+        line-height: var(--line-height-body);
     }
 }
