@@ -17,10 +17,10 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100%;
+  min-height: 100vh;
 
   background-color: var(--color-bg-dark);
-  color: var(--color-text-body);
+  color: var(--color-white);
   line-height: var(--line-height-body);
   font-family: var(--font-family-montserrat);
 }
