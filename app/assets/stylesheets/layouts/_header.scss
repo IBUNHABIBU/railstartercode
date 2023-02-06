@@ -30,7 +30,12 @@
 
         .dropdown {
             position: relative;
-            
+            background-color: var(--color-header-bg);
+            width: 100%;
+            top: 50%;
+            left: 0;
+            opacity: 0;
+            visibility: hidden;
         }
     }
     a {
