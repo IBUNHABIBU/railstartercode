@@ -29,8 +29,8 @@
         left: 0;
         width: 80vw;
         top: 80px;
-        opacity: 0;
-        visibility: hidden;
+        // opacity: 0;
+        // visibility: hidden;
         transition: all 0.3s ease-in-out;
 
         .content {
@@ -101,11 +101,13 @@
             &:hover {
                 background: #000;
 
-                .mega-menu {
-                    top: 50px;
-                    opacity: 1;
-                    visibility: visible;
+               li{
+                 .mega-menu {
+                    // top: 50px;
+                    opacity: 0 !important;
+                    visibility: hidden;
                 }
+            }
             }
         }
         .dropdown {
