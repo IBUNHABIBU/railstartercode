@@ -46,7 +46,7 @@ Capstone projects are solo projects at the end of each of the Microverse Main Te
 This is Rails final capstone project is based on an app to book a Car. I have built a REST API using Ruby on rails as a backend where the front end will be the react-redux. 
 
 ### Features
-- [x] User authentication
+- [] User authentication
     - [] Sign up/Sign in with username and password/ Sign in with Facebook/twitter/github
     - [] Reset password
     - [] Forgot password
@@ -55,8 +55,8 @@ This is Rails final capstone project is based on an app to book a Car. I have bu
     - [] Email notifications
     - [] OTP authentication, 2FA, 2SV, authenticator app, SMS, email
 
-- [x] Clean code, dry, BEM, loop
-- [] Mega Menu
+- [] Clean code, dry, BEM, loop
+- [x] Mega Menu
 
 ### Api end points
 
