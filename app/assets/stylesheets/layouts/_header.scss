@@ -24,7 +24,25 @@
             }
         }
     }
+    .mega-menu {
+        position: absolute;
+        left: 0;
+        width: 80vw;
+        top: 80px;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease-in-out;
 
+        .content {
+            background-color: var(--color-header-bg);
+            padding: var(--space-m);
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: var(--space-m);
+            width: 100%;
+            justify-content: space-between;
+        }
+    }
     &__menu {
         display: flex;
         align-items: center;
@@ -33,14 +51,7 @@
             justify-content: space-between;
             width: 100%;
 
-            .mega-menu {
-                position: absolute;
-                left: 0;
-                width: 80vw;
-                top: 80px;
-                opacity: 0;
-                visibility: hidden;
-            }
+     
         }
         .dropdown {
             position: relative;
