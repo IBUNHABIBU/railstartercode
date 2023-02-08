@@ -47,8 +47,8 @@ This is Rails final capstone project is based on an app to book a Car. I have bu
 
 ### Features
 - User authentication
-- Clean code, dry, BEM
-- Display all cars and appointments
+- Clean code, dry, BEM, loop
+- Mega Menu
 
 ### Api end points
 
