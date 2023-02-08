@@ -68,13 +68,20 @@
                 p {
                     line-height: var(--line-height-headers);
                 }
-
-                .img-wrapper {
+                section {
+              
+                    .image-wrapper {
                     display: block;
                     position: relative;
                     width: 100%;
                     height: 20vh;
                     overflow: hidden;
+
+                    &:hover {
+                        img {
+                            transform: scale(1.1);
+                        }
+                    }
 
                     .img {
                         position: absolute;
@@ -87,7 +94,9 @@
                     }
                     img {
                         width: 100%;
+                        transition: transform 0.3s ease-in-out;
                     }
+                }
                 }
 
                 .mega-links {
