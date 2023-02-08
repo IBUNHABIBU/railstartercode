@@ -45,7 +45,7 @@
        
         .content {
             background-color: var(--color-header-bg);
-            padding: var(--space-m);
+            padding: var(--space-xs);
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             gap: var(--space-m);
@@ -69,7 +69,12 @@
                     line-height: var(--line-height-headers);
                 }
 
-               
+                .read-more {
+                    color: var(--color-primary-rotate);
+                    font-size: var(--font-size-m);
+                    font-weight: bold;
+                }
+                
                 section {
               
                     .image-wrapper {
