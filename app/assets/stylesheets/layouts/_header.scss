@@ -69,12 +69,12 @@
                     line-height: var(--line-height-headers);
                 }
 
-                // .read-more {
-                //     display: inline-block;
-                //     padding-top: var(--space-m);
-                //     color: var(--color-text-section);
-                //     transition: color 0.3s ease-in-out;
-                // }
+                .read-more {
+                    display: inline-block;
+                    padding-top: var(--space-m);
+                    color: var(--color-text-section);
+                    transition: color 0.3s ease-in-out;
+                }
                 section {
               
                     .image-wrapper {
