@@ -43,8 +43,12 @@
                     visibility: visible;
                 }
             }
+            .menu-right {
+                top: 0;
+                left: 100%;
+            }
         }
-        .dropdown-menu {
+        .dropdown-menu, .menu-right {
             position: absolute;
             background-color: var(--color-header-bg);
             width: 100%;
@@ -53,6 +57,15 @@
             opacity: 0;
             visibility: hidden;
             transition: all 0.3s ease-in-out;
+        }
+        .dropdown-right {
+            &:hover {
+                .menu-right {
+                    top: 34px;
+                    opacity: 1;
+                    visibility: visible;
+                }
+            }
         }
     }
     a {
