@@ -97,18 +97,6 @@
             display: flex;
             justify-content: space-between;
             width: 100%;
-
-            &:hover {
-                background: #000;
-
-               li{
-                 .mega-menu {
-                    // top: 50px;
-                    opacity: 0 !important;
-                    visibility: hidden;
-                }
-            }
-            }
         }
         .dropdown {
             position: relative;
@@ -149,4 +137,10 @@
         text-decoration: none;
         color: var(--color-white);
     }
+}
+
+.mega-menu {
+    top: 15rem;
+    opacity: 0;
+    // visibility: hidden;
 }
