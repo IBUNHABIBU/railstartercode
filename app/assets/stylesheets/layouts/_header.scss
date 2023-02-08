@@ -42,7 +42,7 @@
         opacity: 0;
         visibility: hidden;
         transition: all 0.3s ease-in-out;
-
+       
         .content {
             background-color: var(--color-header-bg);
             padding: var(--space-m);
@@ -69,12 +69,7 @@
                     line-height: var(--line-height-headers);
                 }
 
-                .read-more {
-                    display: inline-block;
-                    padding-top: var(--space-m);
-                    color: var(--color-text-section);
-                    transition: color 0.3s ease-in-out;
-                }
+               
                 section {
               
                     .image-wrapper {
