@@ -55,8 +55,24 @@ This is Rails final capstone project is based on an app to book a Car. I have bu
     - [] Email notifications
     - [] OTP authentication, 2FA, 2SV, authenticator app, SMS, email
 
-- [] Clean code, dry, BEM, loop
+- [] Clean code, dry, BEM, SASS, loop
 - [x] Mega Menu
+- [x] Responsive design
+- [] Search
+- [] Pagination
+- [] Filter
+- [] Sort
+- [] Rating
+- [] Comment
+- [] Like
+- [] Follow
+- [] Share
+- [] Favorite
+- [] Bookmark
+- [] Upload image
+- [] Upload video
+- [x] Upload audio
+- [x] Upload file
 
 ### Api end points
 
