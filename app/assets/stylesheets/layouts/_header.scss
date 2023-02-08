@@ -24,6 +24,16 @@
             }
         }
     }
+
+    .mega {
+        &:hover {
+            .mega-menu {
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+
     .mega-menu {
         position: absolute;
         left: 0;
