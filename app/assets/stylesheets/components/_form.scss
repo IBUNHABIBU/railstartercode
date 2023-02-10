@@ -7,13 +7,23 @@
     &::before {
         content: "";
         position: absolute;
-        top: 0;
-        left: 0;
+        top: -50;
+        left: -50;
         width: var(--form-width);
         height: var(--form-height);
-        background-color: var(--color-header-bg);
+        background: linear-gradient(0deg, transparent, transparent, var(--color-text-section));
         z-index: -1;
         transform: rotate(45deg);
         transform-origin: 0 0;
+        animation: animate 6s linear infinite;
+    }
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(45deg);
+    }
+    100% {
+        transform: rotate(405deg);
     }
 }
