@@ -29,6 +29,14 @@
         animation: animate 6s linear infinite;
         animation-delay: -3s;
     }
+
+    .form {
+        position: absolute;
+        inset: 2px;
+        background-color: var(--color-header-bg);
+        border-radius: 8px;
+        z-index: 10;
+    }
 }
 
 @keyframes animate {
