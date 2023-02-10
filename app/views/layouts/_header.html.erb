@@ -147,7 +147,7 @@
                 </li>
                 <% if current_user %>
                 <li>
-                  <%= link_to 'Logout', session_path, method: :delete, class: "header__menu__item" %>
+                  <%= link_to 'Logout', session_path, data: { turbo_method: :delete }, class: "header__menu__item" %>
                 <li>
                 <% else %>
                   <%= link_to 'Login', '#', class: "header__menu__item" %>
