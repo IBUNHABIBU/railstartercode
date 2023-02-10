@@ -123,6 +123,12 @@
     &__menu {
         display: flex;
         align-items: center;
+
+        .f-size {
+            font-size: 1rem;
+            font-weight: bolder;
+            color: green;
+        }
         &__item {
             display: flex;
             justify-content: space-between;
