@@ -63,13 +63,9 @@
                 font-size: 1rem;
                 letter-spacing: 0.05rem;
 
-                &:focus h2 {
-                    // top: -20px;
-                    // left: 0;
-                    // font-size: 0.8rem;
-                    color: var(--color-text-section);
-                    transform: translateY(-34px);
-                    font-size: 0.75rem;
+                &:focus {
+                    color: var(--bg-dark);
+                    background-color: var(--color-text-section); 
                 }
             }
 
@@ -95,6 +91,13 @@
                 transition: 0.5s;
                 pointer-events: none;
             }
+           
+        }
+        .submit {
+            background-color: var(--color-text-section);
+            width: 110%;
+            font-size: 1.4rem;
+            margin-top: 15px;
         }
     }
 }
