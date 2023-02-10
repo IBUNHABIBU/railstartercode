@@ -2,7 +2,6 @@
   <div class="form">
     <%= form_for(@user) do |f| %>
      <%= render 'shared/errors', object: @user %>
-        <ol>
           <li class="required">
             <%= f.label :name %>
             <%= f.text_field :name, autofocus: true %>
@@ -20,15 +19,11 @@
             <%= f.password_field :password_confirmation %>
           </li>
   
-        </ol>
-        <p>
         <% if @user.new_record? %>
           <%= f.submit "Create account" %>
         <% else%>
           <%= f.submit "Update account" %>
           <% end %>
-        </p>
-  
     <% end %>
   </div>
 </div>
