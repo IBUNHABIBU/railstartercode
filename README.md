@@ -56,7 +56,7 @@ This is Rails final capstone project is based on an app to book a Car. I have bu
     - [] OTP authentication, 2FA, 2SV, authenticator app, SMS, email
 
 - [] Clean code, dry, BEM, SASS, loop
-- [x] Mega Menu, footer
+- [x] Mega Menu, footer, sidebar
 - [x] Responsive design
 - [] Search
 - [] Pagination
