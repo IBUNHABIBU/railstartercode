@@ -1,0 +1,35 @@
+<%= content_for(:title, @user.name ) %>
+<article id="user">
+    <header>
+        <h1><%= @user.name %></h1>
+        <h1><%= @user.email %></h1>
+    </header>
+
+    <% content_for(:side) do %>
+        <% if @liked_events.any? %>
+            <h3>Liked events</h3>
+            <% @liked_events.each do |event| %>
+                <%= link_to event.name, event %>
+                <br>
+            <% end %>
+        <% end %>
+    <% end %>
+    <% if @registrations.any? %>
+        <h3>Registered for</h3>
+        <% @registrations.each do |reg| %>
+            <%= link_to reg.event.name, reg.event %>
+            (<%= time_ago_in_words(reg.created_at) %> ago)
+            <br>
+        <% end %>
+    <% end %>
+    <br>
+    <footer>
+        <nav>
+        <% if current_user?(@user) %>
+            <%= link_to 'Edit account', edit_user_path(@user), class: "button delete" %>
+            <%= button_to 'Delete User', user_path(@user), method: :delete, remote: true, 
+             data: { confirm: 'Are you sure!'}, class: "button delete" %>
+             <% end %>
+        </nav>
+    </footer>
+</article>
