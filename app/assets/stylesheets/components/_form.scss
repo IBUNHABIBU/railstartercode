@@ -3,27 +3,39 @@
     width: var(--form-width);
     height: var(--form-height);
     background-color: var(--color-header-bg);
+    overflow: hidden;
 
     &::before {
         content: "";
         position: absolute;
-        top: -50;
-        left: -50;
+        top: -50%;
+        left: -50%;
         width: var(--form-width);
         height: var(--form-height);
-        background: linear-gradient(0deg, transparent, transparent, var(--color-text-section));
-        z-index: -1;
-        transform: rotate(45deg);
-        transform-origin: 0 0;
+        background: linear-gradient(0deg, transparent, transparent, var(--color-text-section), var(--color-text-section));
+        transform-origin: bottom right;
         animation: animate 6s linear infinite;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: var(--form-width);
+        height: var(--form-height);
+        background: linear-gradient(0deg, transparent, transparent, var(--color-text-section), var(--color-text-section));
+        transform-origin: bottom right;
+        animation: animate 6s linear infinite;
+        animation-delay: -3s;
     }
 }
 
 @keyframes animate {
     0% {
-        transform: rotate(45deg);
+        transform: rotate(0deg);
     }
     100% {
-        transform: rotate(405deg);
+        transform: rotate(360deg);
     }
 }
