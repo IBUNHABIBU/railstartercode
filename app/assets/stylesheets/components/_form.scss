@@ -1,0 +1,19 @@
+.box {
+    position: relative;
+    width: 380px;
+    height: 420px;
+    background-color: var(--color-header-bg);
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: var(--color-header-bg);
+        z-index: -1;
+        transform: rotate(45deg);
+        transform-origin: 0 0;
+    }
+}
