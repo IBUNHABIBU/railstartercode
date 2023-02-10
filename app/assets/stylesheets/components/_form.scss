@@ -49,6 +49,38 @@
 
         .input-box {
             position: relative;
+            width: 300px;
+            margin-top: 35px;
+
+            input {
+                position: relative;
+                width: 100%;
+                padding: 20px 10px 10px;
+                background: transparent;
+                border: none;
+                outline: none;
+                color: var(--color-dark);
+                font-size: 1rem;
+                letter-spacing: 0.05rem;
+
+                &:focus ~ label, &:valid ~ label {
+                    top: -20px;
+                    left: 0;
+                    font-size: 0.8rem;
+                    color: var(--color-text-section);
+                }
+            }
+
+            label {
+                position: absolute;
+                left: 0;
+                padding: 20px 10px 10px;
+                font-size: 1rem;
+                pointer-events: none;
+                color: var(--color-text-muted);
+                letter-spacing: 0.05rem;
+                transition: 0.5s;
+            }
         }
     }
 }
