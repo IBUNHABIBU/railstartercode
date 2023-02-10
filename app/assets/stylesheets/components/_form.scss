@@ -36,6 +36,9 @@
         background-color: var(--color-header-bg);
         border-radius: 8px;
         z-index: 10;
+        padding: 40px 50px;
+        display: flex;
+        flex-direction: column;
     }
 }
 
