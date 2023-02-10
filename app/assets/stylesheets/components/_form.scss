@@ -93,8 +93,24 @@
             }
            
         }
+
+        .links {
+            display: flex;
+            justify-content: space-between;
+
+            a {
+                margin: 10px 0;
+                font-size: 1rem;
+                color: var(--color-text-muted);
+
+                &:hover, &:nth-child(2) {
+                    color: var(--color-text-section);
+                }
+            }
+        }
+
         .submit {
-            background-color: var(--color-text-section);
+            background-color: var(--color-background);
             width: 110%;
             font-size: 1.4rem;
             margin-top: 15px;
