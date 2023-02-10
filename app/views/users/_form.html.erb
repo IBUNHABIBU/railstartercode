@@ -1,6 +1,5 @@
 <%= form_for(@user) do |f| %>
  <%= render 'shared/errors', object: @user %>
-  <fieldset>
     <ol>
       <li class="required">
         <%= f.label :name %>
@@ -28,5 +27,4 @@
       <% end %>
     </p>
     
-  </fieldset>
 <% end %>
