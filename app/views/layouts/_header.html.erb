@@ -145,13 +145,17 @@
                 <li>
                   <%= link_to 'About', '#', class: "header__menu__item" %>
                 </li>
-                <%= if %>
+                <%= if current_user %>
                 <li>
+                  <%= link_to 'Logout', destroy_user_session_path, method: :delete, class: "header__menu__item" %>
+                <li>
+                <%= else %>
                   <%= link_to 'Login', '#', class: "header__menu__item" %>
                 </li>
                 <li>
                   <%= link_to 'Register', '#', class: "header__menu__item" %>
                 </li>
+                <%= end %>
         </ul>
     </nav>
 </header>
