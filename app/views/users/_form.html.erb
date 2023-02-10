@@ -1,28 +1,33 @@
 <div class="box">
   <div class="form">
+  <h2>Register</h2>
     <%= form_for(@user) do |f| %>
      <%= render 'shared/errors', object: @user %>
-          <li class="required">
+          <div class="input-box">
             <%= f.label :name %>
             <%= f.text_field :name, autofocus: true %>
-          </li>
-          <li class="required">
+            <i></i>
+          </div>
+          <div class="input-box">
             <%= f.label :email %>
             <%= f.email_field :email %>
-          </li>
-          <li class="required">
+            <i></i>
+          </div>
+          <div class="input-box">
             <%= f.label :password %>
             <%= f.password_field :password %>
-          </li>
-          <li class="required">
+            <i></i>
+          </div>
+          <div class="input-box">
             <%= f.label :password_confirmation, "Confirm password" %>
             <%= f.password_field :password_confirmation %>
-          </li>
+            <i></i>
+          </div>
   
         <% if @user.new_record? %>
-          <%= f.submit "Create account" %>
+          <%= f.submit "Create account", class: "submit" %>
         <% else%>
-          <%= f.submit "Update account" %>
+          <%= f.submit "Update account", class: "submit" %>
           <% end %>
     <% end %>
   </div>
