@@ -4,23 +4,25 @@
     <%= form_for(@user) do |f| %>
      <%= render 'shared/errors', object: @user %>
           <div class="input-box">
-            <%= f.label :name %>
+            <span>Username</span>
             <%= f.text_field :name, autofocus: true %>
             <i></i>
           </div>
           <div class="input-box">
-            <%= f.label :email %>
+            
             <%= f.email_field :email %>
+            <span>Email</span>
             <i></i>
           </div>
           <div class="input-box">
-            <%= f.label :password %>
+            
             <%= f.password_field :password %>
+            <span>Password</span>
             <i></i>
           </div>
           <div class="input-box">
-            <%= f.label :password_confirmation, "Confirm password" %>
             <%= f.password_field :password_confirmation %>
+            <span>password Confirmation</span>
             <i></i>
           </div>
   
