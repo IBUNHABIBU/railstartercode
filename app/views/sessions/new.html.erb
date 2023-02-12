@@ -1,15 +1,15 @@
 <div class="form">
     <div class="form__container">
             <h2>Sign In</h2>
-        <%= form_tag(session_path) do %>
+        <%= form_for(:session, url: login_path) do |f| %>
             
             <div class="input-box">
-                <%= email_field_tag :email %>
+                <%= f.email_field: email, required: "required" %>
                 <span>Email</span>
                  <i></i>
             </div>
             <div class="input-box">
-                <%= password_field_tag :password %>
+                <%= f.password_field :password, required: "required" %>
                 <span>Password</span>
                 <i></i>
             </div>
