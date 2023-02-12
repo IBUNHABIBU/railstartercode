@@ -1,7 +1,6 @@
-.box {
+.form {
     position: relative;
-    width: var(--form-width);
-    height: var(--form-height);
+    @include width_and_height(var(--form-width), var(--form-height));
     background-color: var(--color-header-bg);
     overflow: hidden;
 
@@ -30,7 +29,7 @@
         animation-delay: -3s;
     }
 
-    .form {
+    &__container {
         position: absolute;
         inset: 2px;
         background-color: var(--color-header-bg);
