@@ -66,17 +66,22 @@
                 font-size: 1rem;
                 letter-spacing: 0.05rem;
 
-                &:focus ~ span{
-                    transform: translateY(-34px);
-                    font-size: 0.8rem;
-                    color: var(--color-text-section);
+                &:focus {
+                    ~{
+                        span {
+                            transform: translateY(-34px);
+                            font-size: 0.8rem;
+                            color: var(--color-text-section);
+                        }
+                        i {
+                            height: 100%;
+                        }
+                       
+                    }
+
                 }
 
-                &:focus ~ label{
-                    transform: translateY(-34px);
-                    font-size: 0.8rem;
-                    color: var(--color-text-section);
-                }
+              
             }
             span {
                 position: absolute;
