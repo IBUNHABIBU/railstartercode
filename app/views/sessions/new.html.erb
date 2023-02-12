@@ -4,12 +4,12 @@
         <%= form_tag(session_path) do %>
             
             <div class="input-box">
-                <%= email_field_tag :email %>
+                <%= email_field_tag :email, autofocus: true  %>
                 <span>Email</span>
                  <i></i>
             </div>
             <div class="input-box">
-                <%= password_field_tag :password %>
+                <%= password_field_tag :password, autofocus: true  %>
                 <span>Password</span>
                 <i></i>
             </div>
