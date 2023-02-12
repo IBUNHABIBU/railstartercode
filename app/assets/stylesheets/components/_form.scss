@@ -71,8 +71,24 @@
                     font-size: 0.8rem;
                     color: var(--color-text-section);
                 }
+
+                &:focus ~ label{
+                    transform: translateY(-34px);
+                    font-size: 0.8rem;
+                    color: var(--color-text-section);
+                }
             }
             span {
+                position: absolute;
+                left: 0;
+                padding: 20px 10px 10px;
+                font-size: 1em;
+                pointer-events: none;
+                color: var(--color-text-muted);
+                letter-spacing: 0.05rem;
+                transition: 0.5s;
+            }
+            label {
                 position: absolute;
                 left: 0;
                 padding: 20px 10px 10px;
@@ -103,7 +119,7 @@
             justify-content: space-between;
 
             a {
-                // margin: 10px 0;
+                margin: 10px 0;
                 font-size: 1rem;
                 color: var(--color-text-muted);
 
