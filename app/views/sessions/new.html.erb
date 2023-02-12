@@ -4,12 +4,12 @@
         <%= form_tag(session_path) do %>
             
             <div class="input-box">
-                <%= email_field :email, required: "required"  %>
+                <%= email_field_tag :email %>
                 <span>Email</span>
                  <i></i>
             </div>
             <div class="input-box">
-                <%= password_field :password, required: "required" %>
+                <%= password_field_tag :password, required: "required" %>
                 <span>Password</span>
                 <i></i>
             </div>
