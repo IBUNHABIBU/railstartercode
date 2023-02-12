@@ -4,8 +4,8 @@
     <%= form_for(@user) do |f| %>
      <%= render 'shared/errors', object: @user %>
           <div class="input-box">
-            <span>Username</span>
             <%= f.text_field :name, autofocus: true %>
+            <span>Username</span>
             <i></i>
           </div>
           <div class="input-box">
@@ -15,7 +15,6 @@
             <i></i>
           </div>
           <div class="input-box">
-            
             <%= f.password_field :password %>
             <span>Password</span>
             <i></i>
