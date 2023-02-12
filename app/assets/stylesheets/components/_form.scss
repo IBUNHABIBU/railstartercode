@@ -4,6 +4,10 @@
     background-color: var(--color-header-bg);
     overflow: hidden;
 
+    &--mid {
+        @include width_and_height($height:74vh);
+    }
+
     &::before {
         content: "";
         position: absolute;
@@ -91,10 +95,6 @@
                 pointer-events: none;
             }
            
-        }
-
-        &--mid {
-            @include width_and_height($height:80vh);
         }
 
         .links {
