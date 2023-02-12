@@ -1,6 +1,6 @@
 .form {
     position: relative;
-    @include width_and_height(var(--form-width), var(--form-height));
+    @include width_and_height(30%, 60vh);
     background-color: var(--color-header-bg);
     overflow: hidden;
 
@@ -91,6 +91,10 @@
                 pointer-events: none;
             }
            
+        }
+
+        &--mid {
+            @include width_and_height($height:80vh);
         }
 
         .links {
