@@ -4,7 +4,7 @@
         <%= form_for(:session, url: login_path) do |f| %>
             
             <div class="input-box">
-                <%= f.email_field: email, required: "required" %>
+                <%= f.email_field :email, required: "required" %>
                 <span>Email</span>
                  <i></i>
             </div>
