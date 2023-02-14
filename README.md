@@ -11,8 +11,8 @@
       <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/rails/rails.png" alt="rails" width="100" height="100">
   </a>
 
-  <h2 align="center"> TZ-CAR RENTAL RAILS API FINAL CAPSTONE PROJECT</h2>
-  <h3 align="center"> This is the rails API to build a car booking</h3>
+  <h2 align="center"> RAILS PROJECT TEMPLATE</h2>
+  <h3 align="center"> This is the template to replicate all my projects</h3>
 
   <p align="center">
     <a href="https://github.com/IBUNHABIBU/TZ-social-events-booking/issues">Report Bug</a>
