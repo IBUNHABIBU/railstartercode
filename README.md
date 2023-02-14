@@ -74,14 +74,14 @@ It has all the features that I need to build a rails project
 
 ### Api end points
 
-| Endpoint | Description |
+<!-- | Endpoint | Description |
 |---------|-------------|
 | `https://final-capstone-rails-api.herokuapp.com/` | baseUrl |
 | `baseUrl/users` | users resource |
 | `baseUrl/logout` | logout |
 | `baseUrl/logged_in` | login |
 | `baseUrl/api/v1/cars` | cars resource |
-| `baseUrl/api/v1/bookings` | bookings resource |
+| `baseUrl/api/v1/bookings` | bookings resource | -->
 
   
 <h3 align="center"> Entity Relationship Diagram (ERD) </h3>
