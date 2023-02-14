@@ -1,8 +1,7 @@
 <div class="form">
     <div class="form__container">
             <h2>Sign In</h2>
-        <%= form_with url: login_path, local: true dodo |f| %>
-            
+        <%= form_with url: login_path, scope: :session, data: { turbo: false } do |f| %>
             <div class="input-box">
                 <%= f.email_field :email, required: "required" %>
                 <span>Email</span>
