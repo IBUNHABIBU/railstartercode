@@ -34,16 +34,14 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-#### Capstone project
+#### Starter code
 
-Capstone projects are solo projects at the end of each of the Microverse Main Technical Curriculum sections. Building this project is very important because:
+This is the starter code for all my rails project to replicate the same structure and style for all my projects.
 
-- It's a real-world-like project, built with business specifications that will look nice in my portfolio; and
-- Get feedback about the achievement of technical and soft skills gained during this section of the program.
 
 ### Project specifications
+It has all the features that I need to build a rails project
 
-This is Rails final capstone project is based on an app to book a Car. I have built a REST API using Ruby on rails as a backend where the front end will be the react-redux. 
 
 ### Features
 - [] User authentication
@@ -100,6 +98,11 @@ This project was built using these technologies.
 ### Requirements
 * Ruby
 * Ruby on Rails
+* Postgresql
+* SASS
+* Rspec
+* Rubocop
+* Capybara
 
 
 ### How to Install 
