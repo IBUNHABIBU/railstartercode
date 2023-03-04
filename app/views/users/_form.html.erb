@@ -1,7 +1,7 @@
 <div class="form form--mid">
   <div class="form__container">
   <h2>Register</h2>
-    <%= form_for(@user) do |f| %>
+    <%= form_for(@user, data: { turbo: false }) do |f| %>
      <%= render 'shared/errors', object: @user %>
           <div class="input-box">
             <%= f.text_field :name, required: "required" %>
