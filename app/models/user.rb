@@ -8,4 +8,8 @@ class User < ApplicationRecord
         user = User.find_by(email: email)
         user && user.authenticate(password)
     end
+
+    def self.new_token
+      SecureRandom.urlsafe_base64
+    end
 end
