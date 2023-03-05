@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  attr_accessor :remember_token
   has_secure_password
   validates :name, presence: true, uniqueness: true
   validates :email, presence: true, uniqueness: { case_sensitive: false },
@@ -12,4 +13,8 @@ class User < ApplicationRecord
     def self.new_token
       SecureRandom.urlsafe_base64
     end
+
+    def remember 
+      self.remember_token = 
+      update_attribute(:remember_digest)
 end
