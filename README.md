@@ -148,7 +148,11 @@ Navigate to the project folder make sure Rspec is installed and then run the fol
 | `rails db:migrate` | Database migration |
 | `rails server` | start the server |
 | `rubocop -a` | Fix all the lint errors automatically |
-| `bundle exec rspec` | Run rspec tests |
+| `bundle exec rspec` | Run all rspec tests |
+| `rspec spec/requests --format documentation` | Run all rspec tests well formated |
+| `rspec spec/requests --format doc` | Run all rspec tests well formated |
+| `rspec spec/requests -f d` | Run all rspec tests well formated |
+| `rspec spec/foldername/file_name_spec.rb` | Run rspec tests for a specific file |
 | `EDITOR='code --wait' rails credentials:edit` | Edit credentials |
 
 <!-- ### How to play -->
