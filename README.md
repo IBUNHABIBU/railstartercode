@@ -72,6 +72,7 @@ It has all the features that I need to build a rails project
 - [] Upload video
 - [x] Upload audio
 - [x] Upload file
+- [] Well documented Gem file and readme file
 
 ### Api end points
 
