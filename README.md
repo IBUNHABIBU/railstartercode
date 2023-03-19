@@ -56,6 +56,7 @@ It has all the features that I need to build a rails project
 - [] Clean code, dry, BEM, SASS, loop
 - [x] Mega Menu, footer, sidebar
 - [] Toast notification using hotwire
+- [] site map, geolocation, google navigator etc
 - [x] Responsive design
 - [] Search
 - [] Pagination
