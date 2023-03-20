@@ -74,6 +74,8 @@ It has all the features that I need to build a rails project
 - [x] Upload audio
 - [x] Upload file
 - [] Well documented Gem file and readme file
+- [] Charts and graph
+- [] Hotwire
 
 ### Api end points
 
