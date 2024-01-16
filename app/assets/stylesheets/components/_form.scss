@@ -1,7 +1,7 @@
 .form {
     position: relative;
     @include width_and_height(30%, 60vh);
-    background-color: var(--color-header-bg);
+    background-color: $color-header-bg;
     overflow: hidden;
 
     &--mid {
@@ -13,9 +13,9 @@
         position: absolute;
         top: -50%;
         left: -50%;
-        width: var(--form-width);
-        height: var(--form-height);
-        background: linear-gradient(0deg, transparent, transparent, var(--color-text-section), var(--color-text-section));
+        width: $form-width;
+        height: $form-height;
+        background: linear-gradient(0deg, transparent, transparent, $color-text-section, $color-text-section);
         transform-origin: bottom right;
         animation: animate 6s linear infinite;
     }
@@ -25,9 +25,9 @@
         position: absolute;
         top: -50%;
         left: -50%;
-        width: var(--form-width);
-        height: var(--form-height);
-        background: linear-gradient(0deg, transparent, transparent, var(--color-text-section), var(--color-text-section));
+        width: $form-width;
+        height: $form-height;
+        background: linear-gradient(0deg, transparent, transparent, $color-text-section, $color-text-section);
         transform-origin: bottom right;
         animation: animate 6s linear infinite;
         animation-delay: -3s;
@@ -36,7 +36,7 @@
     &__container {
         position: absolute;
         inset: 2px;
-        background-color: var(--color-header-bg);
+        background-color: $color-header-bg;
         border-radius: 8px;
         z-index: 10;
         padding: 40px 50px;
@@ -44,7 +44,7 @@
         flex-direction: column;
 
         h2 {
-            color: var(--color-text-section);
+            color: $color-text-section;
             font-weight: 500;
             text-align: center;
             letter-spacing: 0.1rem;
@@ -62,7 +62,7 @@
                 background: transparent;
                 border: none;
                 outline: none;
-                color: var(--color-input);
+                color: $color-input;
                 font-size: 1.2rem;
                 letter-spacing: 0.05rem;
                 z-index: 10;
@@ -72,7 +72,7 @@
                         span {
                             transform: translateX(-10px) translateY(-34px);
                             font-size: 0.8rem;
-                            color: var(--color-text-section);
+                            color: $color-text-section);
                         }
                         i {
                             height: 90%;
@@ -87,7 +87,7 @@
                         span {
                             transform: translateX(-10px) translateY(-34px);
                             font-size: 0.8rem;
-                            color: var(--color-text-section);
+                            color: $color-text-section;
                         }
                         i {
                             height: 90%;
@@ -105,7 +105,7 @@
                 padding: 20px 10px 10px;
                 font-size: 1em;
                 pointer-events: none;
-                color: var(--color-text-muted);
+                color: $color-text-muted;
                 letter-spacing: 0.05rem;
                 transition: 0.5s;
             }
@@ -115,7 +115,7 @@
                 padding: 20px 10px 10px;
                 font-size: 1em;
                 pointer-events: none;
-                color: var(--color-text-muted);
+                color: $color-text-muted;
                 letter-spacing: 0.05rem;
                 transition: 0.5s;
             }
@@ -127,7 +127,7 @@
                 bottom: 0;
                 width: 100%;
                 height: 2px;
-                background-color: var(--color-text-section);
+                background-color: $color-text-section;
                 border-radius: 4px;
                 transition: 0.5s;
                 pointer-events: none;
@@ -143,10 +143,10 @@
             a {
                 margin: 10px 0;
                 font-size: 1rem;
-                color: var(--color-text-muted);
+                color: $color-text-muted;
 
                 &:hover, &:nth-child(2) {
-                    color: var(--color-text-section);
+                    color: $color-text-section;
                 }
             }
         }
